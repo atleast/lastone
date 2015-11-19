@@ -7,13 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AB235E2B1BBA91C8006CE5AF /* Launch_5_1136x640_1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AB235E2A1BBA91C8006CE5AF /* Launch_5_1136x640_1@2x.png */; settings = {ASSET_TAGS = (); }; };
+		AB235E2B1BBA91C8006CE5AF /* Launch_5_1136x640_1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AB235E2A1BBA91C8006CE5AF /* Launch_5_1136x640_1@2x.png */; };
 		AB600C501BB9A04600FD9AC2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB600C4F1BB9A04600FD9AC2 /* main.m */; };
 		AB600C531BB9A04600FD9AC2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB600C521BB9A04600FD9AC2 /* AppDelegate.m */; };
 		AB600C561BB9A04600FD9AC2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB600C551BB9A04600FD9AC2 /* ViewController.m */; };
 		AB600C591BB9A04600FD9AC2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB600C571BB9A04600FD9AC2 /* Main.storyboard */; };
 		AB600C5B1BB9A04600FD9AC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB600C5A1BB9A04600FD9AC2 /* Assets.xcassets */; };
-		AB600C5E1BB9A04600FD9AC2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB600C5C1BB9A04600FD9AC2 /* LaunchScreen.storyboard */; };
 		AB600C691BB9A04600FD9AC2 /* LastStoneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB600C681BB9A04600FD9AC2 /* LastStoneTests.m */; };
 		AB600C741BB9A04700FD9AC2 /* LastStoneUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB600C731BB9A04700FD9AC2 /* LastStoneUITests.m */; };
 		AB600C851BBA467200FD9AC2 /* cdn.png in Resources */ = {isa = PBXBuildFile; fileRef = AB600C841BBA467200FD9AC2 /* cdn.png */; };
@@ -46,7 +45,6 @@
 		AB600C551BB9A04600FD9AC2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		AB600C581BB9A04600FD9AC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AB600C5A1BB9A04600FD9AC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		AB600C5D1BB9A04600FD9AC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AB600C5F1BB9A04600FD9AC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AB600C641BB9A04600FD9AC2 /* LastStoneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LastStoneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB600C681BB9A04600FD9AC2 /* LastStoneTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LastStoneTests.m; sourceTree = "<group>"; };
@@ -112,7 +110,6 @@
 				AB600C551BB9A04600FD9AC2 /* ViewController.m */,
 				AB600C571BB9A04600FD9AC2 /* Main.storyboard */,
 				AB600C5A1BB9A04600FD9AC2 /* Assets.xcassets */,
-				AB600C5C1BB9A04600FD9AC2 /* LaunchScreen.storyboard */,
 				AB600C5F1BB9A04600FD9AC2 /* Info.plist */,
 				AB600C4E1BB9A04600FD9AC2 /* Supporting Files */,
 			);
@@ -273,7 +270,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB600C5E1BB9A04600FD9AC2 /* LaunchScreen.storyboard in Resources */,
 				AB600C5B1BB9A04600FD9AC2 /* Assets.xcassets in Resources */,
 				AB600C591BB9A04600FD9AC2 /* Main.storyboard in Resources */,
 				AB235E2B1BBA91C8006CE5AF /* Launch_5_1136x640_1@2x.png in Resources */,
@@ -348,14 +344,6 @@
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		AB600C5C1BB9A04600FD9AC2 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AB600C5D1BB9A04600FD9AC2 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -395,7 +383,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -432,7 +420,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -443,8 +431,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = LastStone/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.atleast.LastStone;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -455,8 +444,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = LastStone/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.atleast.LastStone;
 				PRODUCT_NAME = "$(TARGET_NAME)";
