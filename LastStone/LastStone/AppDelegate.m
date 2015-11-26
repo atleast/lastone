@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "SplashViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,26 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    //建立主窗口
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen]bounds]];
+    self.window.backgroundColor = [UIColor grayColor];
+    
+    //窗口尺寸
+    CGRect rect = [[UIScreen mainScreen] bounds];
+    NSLog(@"main窗口: x=%g, y=%g, width=%f, height=%f", rect.origin.x, rect.origin.y, rect.size.width, rect.size.height);
+    
+    rect = [[UIApplication sharedApplication] statusBarFrame];
+    NSLog(@"StatusBar: x=%g, y=%g, width=%f, height=%f", rect.origin.x, rect.origin.y, rect.size.width, rect.size.height);
+    
+    rect = [[UIScreen mainScreen] applicationFrame];
+    NSLog(@"AppFrame: x=%g, y=%g, width=%f, height=%f", rect.origin.x, rect.origin.y, rect.size.width, rect.size.height);
+    
+    //为Delegate添加ViewController
+    SplashViewController *splashViewController = [[SplashViewController alloc] initWithNibName:nil bundle:nil];
+    self.window.rootViewController = splashViewController;
+    
+    [self.window makeKeyAndVisible];
     return YES;
 }
 

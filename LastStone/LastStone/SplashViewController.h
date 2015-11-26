@@ -8,8 +8,18 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController <UIActionSheetDelegate>
+@interface SplashViewController : UIViewController <UIActionSheetDelegate>
 
+//定义屏幕参数
+#define ScreenHeight [[UIScreen mainScreen] bounds].size.height
+#define ScreenWidth [[UIScreen mainScreen] bounds].size.width
+
+//宽度适配
+#define Width(x) ((float)x * ((float)(ScreenWidth)/(float)1080))
+//高度适配
+#define Height(y) ((float)y * ((float)(ScreenHeight)/(float)1920))
+
+/*
 //UITextField, UIButtoon, KeyBoard
 @property (weak, nonatomic) IBOutlet UITextField *textField;
 - (IBAction)btnClicked:(id)sender;
@@ -32,6 +42,6 @@
 - (IBAction)switchChanged:(id)sender;
 - (IBAction)toggleChanged:(id)sender;
 - (IBAction)shownAndPressed:(id)sender;
-
+*/
 
 @end
