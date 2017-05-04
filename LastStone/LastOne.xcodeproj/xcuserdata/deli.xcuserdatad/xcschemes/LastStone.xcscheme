@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0700"
+   LastUpgradeVersion = "0830"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "AB600C4A1BB9A04600FD9AC2"
-               BuildableName = "LastStone.app"
-               BlueprintName = "LastStone"
-               ReferencedContainer = "container:LastStone.xcodeproj">
+               BuildableName = "LastOne.app"
+               BlueprintName = "LastOne"
+               ReferencedContainer = "container:LastOne.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "AB600C631BB9A04600FD9AC2"
-               BuildableName = "LastStoneTests.xctest"
-               BlueprintName = "LastStoneTests"
-               ReferencedContainer = "container:LastStone.xcodeproj">
+               BuildableName = "LastOneTests.xctest"
+               BlueprintName = "LastOneTests"
+               ReferencedContainer = "container:LastOne.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "AB600C6E1BB9A04600FD9AC2"
-               BuildableName = "LastStoneUITests.xctest"
-               BlueprintName = "LastStoneUITests"
-               ReferencedContainer = "container:LastStone.xcodeproj">
+               BuildableName = "LastOneUITests.xctest"
+               BlueprintName = "LastOneUITests"
+               ReferencedContainer = "container:LastOne.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "AB600C4A1BB9A04600FD9AC2"
-            BuildableName = "LastStone.app"
-            BlueprintName = "LastStone"
-            ReferencedContainer = "container:LastStone.xcodeproj">
+            BuildableName = "LastOne.app"
+            BlueprintName = "LastOne"
+            ReferencedContainer = "container:LastOne.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "AB600C4A1BB9A04600FD9AC2"
-            BuildableName = "LastStone.app"
-            BlueprintName = "LastStone"
-            ReferencedContainer = "container:LastStone.xcodeproj">
+            BuildableName = "LastOne.app"
+            BlueprintName = "LastOne"
+            ReferencedContainer = "container:LastOne.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "AB600C4A1BB9A04600FD9AC2"
-            BuildableName = "LastStone.app"
-            BlueprintName = "LastStone"
-            ReferencedContainer = "container:LastStone.xcodeproj">
+            BuildableName = "LastOne.app"
+            BlueprintName = "LastOne"
+            ReferencedContainer = "container:LastOne.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
